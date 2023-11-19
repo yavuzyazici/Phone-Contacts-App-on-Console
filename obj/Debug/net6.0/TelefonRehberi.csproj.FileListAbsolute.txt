@@ -1,0 +1,15 @@
+F:\Masaüstü\KişiselYazılım\Yazilim Projeler\PlayGround\TelefonRehberi\obj\Debug\net6.0\TelefonRehberi.csproj.AssemblyReference.cache
+F:\Masaüstü\KişiselYazılım\Yazilim Projeler\PlayGround\TelefonRehberi\obj\Debug\net6.0\TelefonRehberi.GeneratedMSBuildEditorConfig.editorconfig
+F:\Masaüstü\KişiselYazılım\Yazilim Projeler\PlayGround\TelefonRehberi\obj\Debug\net6.0\TelefonRehberi.AssemblyInfoInputs.cache
+F:\Masaüstü\KişiselYazılım\Yazilim Projeler\PlayGround\TelefonRehberi\obj\Debug\net6.0\TelefonRehberi.AssemblyInfo.cs
+F:\Masaüstü\KişiselYazılım\Yazilim Projeler\PlayGround\TelefonRehberi\obj\Debug\net6.0\TelefonRehberi.csproj.CoreCompileInputs.cache
+F:\Masaüstü\KişiselYazılım\Yazilim Projeler\PlayGround\TelefonRehberi\bin\Debug\net6.0\TelefonRehberi.exe
+F:\Masaüstü\KişiselYazılım\Yazilim Projeler\PlayGround\TelefonRehberi\bin\Debug\net6.0\TelefonRehberi.deps.json
+F:\Masaüstü\KişiselYazılım\Yazilim Projeler\PlayGround\TelefonRehberi\bin\Debug\net6.0\TelefonRehberi.runtimeconfig.json
+F:\Masaüstü\KişiselYazılım\Yazilim Projeler\PlayGround\TelefonRehberi\bin\Debug\net6.0\TelefonRehberi.dll
+F:\Masaüstü\KişiselYazılım\Yazilim Projeler\PlayGround\TelefonRehberi\bin\Debug\net6.0\TelefonRehberi.pdb
+F:\Masaüstü\KişiselYazılım\Yazilim Projeler\PlayGround\TelefonRehberi\obj\Debug\net6.0\TelefonRehberi.dll
+F:\Masaüstü\KişiselYazılım\Yazilim Projeler\PlayGround\TelefonRehberi\obj\Debug\net6.0\refint\TelefonRehberi.dll
+F:\Masaüstü\KişiselYazılım\Yazilim Projeler\PlayGround\TelefonRehberi\obj\Debug\net6.0\TelefonRehberi.pdb
+F:\Masaüstü\KişiselYazılım\Yazilim Projeler\PlayGround\TelefonRehberi\obj\Debug\net6.0\TelefonRehberi.genruntimeconfig.cache
+F:\Masaüstü\KişiselYazılım\Yazilim Projeler\PlayGround\TelefonRehberi\obj\Debug\net6.0\ref\TelefonRehberi.dll

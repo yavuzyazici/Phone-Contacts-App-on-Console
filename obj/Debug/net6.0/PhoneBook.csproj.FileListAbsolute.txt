@@ -1,0 +1,15 @@
+F:\Masaüstü\KişiselYazılım\Yazilim Projeler\PlayGround\TelefonRehberi\bin\Debug\net6.0\PhoneBook.exe
+F:\Masaüstü\KişiselYazılım\Yazilim Projeler\PlayGround\TelefonRehberi\bin\Debug\net6.0\PhoneBook.deps.json
+F:\Masaüstü\KişiselYazılım\Yazilim Projeler\PlayGround\TelefonRehberi\bin\Debug\net6.0\PhoneBook.runtimeconfig.json
+F:\Masaüstü\KişiselYazılım\Yazilim Projeler\PlayGround\TelefonRehberi\bin\Debug\net6.0\PhoneBook.dll
+F:\Masaüstü\KişiselYazılım\Yazilim Projeler\PlayGround\TelefonRehberi\bin\Debug\net6.0\PhoneBook.pdb
+F:\Masaüstü\KişiselYazılım\Yazilim Projeler\PlayGround\TelefonRehberi\obj\Debug\net6.0\PhoneBook.csproj.AssemblyReference.cache
+F:\Masaüstü\KişiselYazılım\Yazilim Projeler\PlayGround\TelefonRehberi\obj\Debug\net6.0\PhoneBook.GeneratedMSBuildEditorConfig.editorconfig
+F:\Masaüstü\KişiselYazılım\Yazilim Projeler\PlayGround\TelefonRehberi\obj\Debug\net6.0\PhoneBook.AssemblyInfoInputs.cache
+F:\Masaüstü\KişiselYazılım\Yazilim Projeler\PlayGround\TelefonRehberi\obj\Debug\net6.0\PhoneBook.AssemblyInfo.cs
+F:\Masaüstü\KişiselYazılım\Yazilim Projeler\PlayGround\TelefonRehberi\obj\Debug\net6.0\PhoneBook.csproj.CoreCompileInputs.cache
+F:\Masaüstü\KişiselYazılım\Yazilim Projeler\PlayGround\TelefonRehberi\obj\Debug\net6.0\PhoneBook.dll
+F:\Masaüstü\KişiselYazılım\Yazilim Projeler\PlayGround\TelefonRehberi\obj\Debug\net6.0\refint\PhoneBook.dll
+F:\Masaüstü\KişiselYazılım\Yazilim Projeler\PlayGround\TelefonRehberi\obj\Debug\net6.0\PhoneBook.pdb
+F:\Masaüstü\KişiselYazılım\Yazilim Projeler\PlayGround\TelefonRehberi\obj\Debug\net6.0\PhoneBook.genruntimeconfig.cache
+F:\Masaüstü\KişiselYazılım\Yazilim Projeler\PlayGround\TelefonRehberi\obj\Debug\net6.0\ref\PhoneBook.dll
