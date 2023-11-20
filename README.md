@@ -1,6 +1,6 @@
 # Phone Contacts Console App C#
 
-Phone Contacts Console App örneği
+Phone Contacts Console App
 
 ## Screen Shot
 
