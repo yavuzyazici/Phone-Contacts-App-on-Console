@@ -1,25 +1,37 @@
 ﻿using ContactDirection;
 using PhoneBook;
 using System.Collections.Generic;
+using System.IO;
 using static PhoneBook.Controller;
 
 
-Console.SetWindowSize(145, 30);
+Console.SetWindowSize(163, 30);
 
 
 Controller controller = new Controller();
+DataManager dataManager = new DataManager();
 
 
 //Başlangıç
 List<Contact> phoneBook = new List<Contact>();
-phoneBook.Add(new Contact(1, "Yavuz Selim", "Yazıcı", "0565149034"));
-phoneBook.Add(new Contact(2, "Talip", "Bulundu", "05007740033"));
-phoneBook.Add(new Contact(2, "Çağrı", "Topçu", "05501700933"));
-phoneBook.Add(new Contact(3, "Recep", "Şerit", "05963541896"));
-phoneBook.Add(new Contact(4, "Muhammed Fatih", "Yazıcı", "05927441034"));
-phoneBook.Add(new Contact(2, "Bahadır Can", "Topçu", "05801704933"));
-phoneBook.Add(new Contact(5, "Saliha", "Yazıcı", "05004321034"));
 
+List<Contact> contact;
+string path = AppDomain.CurrentDomain.BaseDirectory + "\\data.json";
+if (File.Exists(path))
+{
+    contact = dataManager.LoadData();
+    phoneBook = contact;
+}
+else
+{
+    phoneBook.Add(new Contact(1, "Yavuz Selim", "Yazıcı", "0565149034"));
+    phoneBook.Add(new Contact(2, "Talip", "Bulundu", "05007740033"));
+    phoneBook.Add(new Contact(2, "Çağrı", "Topçu", "05501700933"));
+    phoneBook.Add(new Contact(3, "Recep", "Şerit", "05963541896"));
+    phoneBook.Add(new Contact(4, "Muhammed Fatih", "Yazıcı", "05927441034"));
+    phoneBook.Add(new Contact(2, "Bahadır Can", "Topçu", "05801704933"));
+    phoneBook.Add(new Contact(5, "Saliha", "Yazıcı", "05004321034"));
+}
 controller.FStart(phoneBook);
 
 

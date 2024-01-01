@@ -1,4 +1,5 @@
 ﻿using ContactDirection;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,11 +13,11 @@ namespace PhoneBook
 
         public void FStart(List<Contact> contacts)
         {
+        Beginning:
             string operation; List<Contact> phoneBook = contacts;
             Console.WriteLine("Lütfen yapmak istediğiniz işlemi seçiniz:");
             Console.WriteLine("**********************************");
-            Console.WriteLine("(1) Yeni Numara Kaydetmek - (2) Varolan Numarayı Silmek - (3) Varolan Numarayı Güncelleme - (4) Rehberi Listelemek - (5) Rehberde Arama Yapmak");
-        Beginning:
+            Console.WriteLine("(1) Yeni Numara Kaydetmek - (2) Varolan Numarayı Silmek - (3) Varolan Numarayı Güncelleme - (4) Rehberi Listelemek - (5) Rehberde Arama Yapmak - (6)Kaydet ve Çık");
             operation = Console.ReadLine();
 
             switch (operation)
@@ -41,9 +42,19 @@ namespace PhoneBook
                     Console.Clear();
                     FListSearch(phoneBook);
                     break;
+                case "6":
+                    Console.Clear();
+                    DataManager dataManager = new DataManager();
+                    dataManager.SaveData(contacts);
+                    Environment.Exit(0);
+                    break;
                 default:
+                    Console.Clear();
                     Console.WriteLine("Lütfen geçerli bir sayı giriniz");
+                    Thread.Sleep(500);
+                    Console.Clear();
                     goto Beginning;
+
             }
         }
 
@@ -191,7 +202,7 @@ namespace PhoneBook
 
         void FUpdate(List<Contact> contacts)
         {
-            Beggining:
+        Beggining:
             List<Contact> phoneBook = contacts;
             string input, selectedId, name, familyname, number; int id;
             Console.Write("Güncelemek istediğiniz kişinin adını ya da soyadını giriniz: ");
@@ -379,7 +390,7 @@ namespace PhoneBook
         void FListSearch(List<Contact> contacts)
         {
             List<Contact> phoneBook = contacts;
-            Beggining:
+        Beggining:
             Console.Write("Arama yapmak istediğiniz tipi seçiniz\n**********************************************\nİsim veya soyisime göre arama yapmak için: (1)\nTelefon numarasına göre arama yapmak için: (2)\n");
             string secim = Console.ReadLine();
             if (secim != "1" && secim != "2")
@@ -513,5 +524,6 @@ namespace PhoneBook
         }
 
         #endregion
+
     }
 }
